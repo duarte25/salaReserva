@@ -1,0 +1,42 @@
+{
+  "salas": [
+    {
+      "descricao": "dawd",
+      "solicitante": "dawd",
+      "category": {
+        "id": "delete",
+        "name": "delete"
+      },
+      "dataInicio": "03/06/2023, 03h30",
+      "dataFim": "03/06/2023, 05h30",
+      "": "on",
+      "id": 1
+    },
+    {
+      "descricao": "rsdfsd",
+      "solicitante": "teste solicitante",
+      "category": {
+        "id": "delete",
+        "name": "delete"
+      },
+      "dataInicio": "03/06/2023, 03h30",
+      "dataFim": "03/06/2023, 05h30",
+      "": "on",
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "infra"
+    },
+    {
+      "id": 2,
+      "name": "delete"
+    },
+    {
+      "id": 3,
+      "name": "rapaiz"
+    }
+  ]
+}

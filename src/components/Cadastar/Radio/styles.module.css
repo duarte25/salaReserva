@@ -1,0 +1,24 @@
+.label {
+    width: 100%;
+    margin-bottom: 2.5vh;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.label h2 {
+    font-size: 2vh;
+    padding: 0 1vh;
+    font: 1.6vh/2.4vh "Lato", Arial, sans-serif;
+}
+
+.inputbordas {
+    font: 1.5vh/2.4vh "Lato", Arial, sans-serif;
+    box-sizing: border-box;
+    border: 0.1vh solid #ccc;
+    transition: 0.4s;
+}
+
+.textarea {
+    resize: none !important;
+}

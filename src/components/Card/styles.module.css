@@ -1,0 +1,15 @@
+.card li {
+    color: black;
+    list-style-type: none;
+    border: 0.1vh solid black;
+    width: 80%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card ul {
+    display: flex;
+    flex-direction: row;
+}

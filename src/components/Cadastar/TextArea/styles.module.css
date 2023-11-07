@@ -1,0 +1,30 @@
+.label {
+    float: left;
+    width: 100%;
+    margin-bottom: 2.5vh;
+    color: black;
+}
+
+.label h2 {
+    font-size: 2vh;
+    font: 1.6vh/2.4vh "Lato", Arial, sans-serif;
+}
+
+.inputbordas {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 0.1vh;
+    border: 0.1vh solid #ccc;
+    padding: 1.7vh 1.4vh 5.9vh;
+    transition: 0.4s;
+}
+
+.inputbordas:focus {
+    border-color:#333;
+    outline: none;          
+}
+
+.textarea {
+    resize: none !important;
+}

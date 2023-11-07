@@ -1,0 +1,15 @@
+.formulario .titulo {
+    color: black;
+    font-size: 1.5em;
+    padding-bottom: 10vh;
+}
+
+.formulario {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.buttom {
+    display: flex;
+    justify-content: flex-end;
+}

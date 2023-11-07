@@ -1,0 +1,23 @@
+.body{
+    height: 100vh;
+    background: #dddddd;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container hr {
+    background-color: black;
+    width: .3vh;
+    height: 50vw;
+}
+
+.project{
+    width: 30%;
+}
+
+.listcard{
+    width: 70%;
+}

@@ -1,0 +1,11 @@
+.cabecalho{
+    background-color: rgb(75, 119, 200);
+    color: white;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho h1 {
+    padding: 0 5vh;
+}
