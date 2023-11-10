@@ -1,0 +1,18 @@
+.message {
+    padding: 1vh;
+    width: 100%;
+    height: 5vh;
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+}
+
+.success {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.error {
+    background-color: #f81109;
+    color: white;
+}
