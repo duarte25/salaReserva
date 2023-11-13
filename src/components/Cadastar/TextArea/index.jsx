@@ -7,7 +7,6 @@ export default function Textarea({ text, handleOnChange, ...props }) {
             <textarea  {...props}
                 onChange={handleOnChange} 
                 className={Styles.inputbordas}
-                required
             />
         </label>
     )

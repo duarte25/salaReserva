@@ -1,126 +1,29 @@
 {
   "salas": [
     {
-      "descricao": "dawd",
-      "solicitante": "dawd",
+      "descricao": "teste",
+      "solicitante": "teste",
+      "dataInicio": "2023-11-11T15:43",
+      "dataFim": "2023-11-11T18:40",
       "category": {
-        "id": "delete",
-        "name": "delete"
+        "id": "Bloco B - LAB de arquitetura 2",
+        "name": "Bloco B - LAB de arquitetura 2"
       },
-      "dataInicio": "03/06/2023, 03h30",
-      "dataFim": "03/06/2023, 05h30",
-      "": "on",
       "id": 1
-    },
-    {
-      "descricao": "rsdfsd",
-      "solicitante": "teste solicitante",
-      "category": {
-        "id": "delete",
-        "name": "delete"
-      },
-      "dataInicio": "03/06/2023, 03h30",
-      "dataFim": "03/06/2023, 05h30",
-      "": "on",
-      "id": 2
-    },
-    {
-      "descricao": "dawdw",
-      "solicitante": "adawd",
-      "category": {
-        "id": "infra",
-        "name": "infra"
-      },
-      "dataInicio": "wda",
-      "dataFim": "dawd",
-      "": "on",
-      "id": 3
-    },
-    {
-      "descricao": "awdaw",
-      "solicitante": "dawd",
-      "dataInicio": "2023-11-18T22:41",
-      "dataFim": "2023-11-09T19:47",
-      "category": {
-        "id": "rapaiz",
-        "name": "rapaiz"
-      },
-      "": "on",
-      "id": 4
-    },
-    {
-      "descricao": "dwad",
-      "solicitante": "dawd",
-      "dataInicio": "2023-11-09T21:46",
-      "dataFim": "2023-11-09T01:46",
-      "category": {
-        "id": "infra",
-        "name": "infra"
-      },
-      "": "on",
-      "id": 5
-    },
-    {
-      "descricao": "daw",
-      "solicitante": "dawd",
-      "category": {
-        "id": "infra",
-        "name": "infra"
-      },
-      "dataInicio": "2023-11-09T22:14",
-      "dataFim": "2023-11-09T01:14",
-      "": "on",
-      "id": 6
-    },
-    {
-      "descricao": "wad",
-      "solicitante": "awdaw",
-      "category": {
-        "id": "infra",
-        "name": "infra"
-      },
-      "dataInicio": "2023-11-09T20:17",
-      "dataFim": "2023-11-09T20:19",
-      "": "on",
-      "id": 7
-    },
-    {
-      "solicitante": "ddaw",
-      "descricao": "dawdaw",
-      "category": {
-        "id": "infra",
-        "name": "infra"
-      },
-      "dataInicio": "2023-11-09T00:23",
-      "dataFim": "2023-11-09T20:29",
-      "": "on",
-      "id": 8
-    },
-    {
-      "descricao": "dwa",
-      "solicitante": "dawd",
-      "category": {
-        "id": "delete",
-        "name": "delete"
-      },
-      "dataInicio": "2023-11-09T20:35",
-      "dataFim": "2023-11-09T02:32",
-      "": "on",
-      "id": 9
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "infra"
+      "name": "Bloco A - LAB de informatica 1"
     },
     {
       "id": 2,
-      "name": "delete"
+      "name": "Bloco B - LAB de arquitetura 2"
     },
     {
       "id": 3,
-      "name": "rapaiz"
+      "name": "Bloco A - LAB de informatica 2"
     }
   ]
 }

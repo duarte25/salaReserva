@@ -11,9 +11,16 @@ export default function ListCard() {
             .then(resultado => setEventos(resultado.data))
     }, [])
 
-    function formatarData(data) {
-        const [ano, mes, dia] = data.split('-');
-        return `${dia}/${mes}/${ano}`
+    function formatoData(data) {
+        const dataForm = new Date(data)
+        const dia = dataForm.getDate().toString().padStart(2, '0')
+        const mes = (dataForm.getMonth() + 1).toString().padStart(2, '0')
+        const ano = dataForm.getFullYear()
+        const hora = dataForm.getHours().toString().padStart(2, '0')
+        const minuto = dataForm.getMinutes().toString().padStart(2, '0')
+        const segundo = dataForm.getSeconds().toString().padStart(2, '0')
+
+        return `${dia}/${mes}/${ano} às ${hora}:${minuto}:${segundo}`
     }
 
     return (
@@ -33,12 +40,13 @@ export default function ListCard() {
                 <div className={Styles.listCard}>
                     {eventos.map(e => (
                         <Card
+                            key={e.id}
                             id={e.id}
                             descricao={e.descricao}
                             solicitante={e.solicitante}
                             category={e.category}
-                            dataInicio={formatarData(e.dataInicio)}
-                            dataFim={formatarData(e.dataFim)}
+                            dataInicio={formatoData(e.dataInicio)}
+                            dataFim={formatoData(e.dataFim)}
                         />
                     ))}
                 </div>

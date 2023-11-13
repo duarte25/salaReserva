@@ -1,12 +1,12 @@
 .formulario .titulo {
     color: black;
     font-size: 1.5em;
-    padding-bottom: 10vh;
+    padding-bottom: 1vh;
 }
 
 .formulario {
     overflow: hidden;
-    padding: 20px;
+    padding: 2vh;
 }
 
 .buttom {

@@ -6,7 +6,6 @@ export default function Radio({ text, handleOnChange, ...props }) {
             <input  {...props}
                 onChange={handleOnChange}
                 className={Styles.inputbordas}
-                required
             />
             <h2>{text}</h2>
         </label>

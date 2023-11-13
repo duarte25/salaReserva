@@ -7,7 +7,6 @@ export default function Input({ text, handleOnChange, ...props }) {
             <input  {...props}
                 onChange={handleOnChange}
                 className={Styles.inputbordas}
-                required
             />
         </label>
     )
